@@ -18,7 +18,7 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 #### MVP 
 
-- Users can select any state in the US to receive information about Covid-19
+- Users can select any States in the US to receive information about Covid-19
 - External API will provide needed information.
 - All information will be applied to the page.
 - It allows to see them confirmed cases, confirmed deaths and recovery.
