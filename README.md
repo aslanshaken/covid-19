@@ -47,13 +47,13 @@ Done
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|Research | H | 3hrs|4hrs |  |
-|HTML | H | 3hrs|5hrs |  |
-|Css| H | 3hrs|7hrs  | |
-|JS | H | 3hrs|7hrs | |
-|API | H | 3hrs|7hrs |  |
-|Make User Friendly | H | 3hrs|4hrs |  |
-|Additional futures | H | 3hrs|5hrs |  |
+|Research | H | 4hrs| |  |
+|HTML | H | 5hrs| |  |
+|Css| H | 7hrs|  | |
+|JS | H | 7hrs| | |
+|API | H | 7hrs| |  |
+|Make User Friendly | H | 4hrs| |  |
+|Additional futures | H | 3hrs| |  |
 | Total | H | | |  |
 
 ## Code Snippet
