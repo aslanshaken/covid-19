@@ -1,11 +1,62 @@
-# covid-19# 
-Project
-App Title: Covid-19 
-App Description: It allows a user to get latest information about Covid-19 cases in the USA,globally and information about a vaccine status 
-API: https://disease.sh/docs/#/
-API Snippet: https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v3/covid-19/jhucsse - Worldwide, https://disease.sh/v3/covid-19/vaccine -Vaccine
-Wireframes: Attached 
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
-Post-MVP: I would like to add other pages with different source of API such as worldwide and vaccine status 
-Goals: I will need 7 days. 1- research and final wireframe pages, 2- building bacis html,css and js files, 3,4,5- work with .js pages (api), 7,8,9- work on css and find solution for logical pats. 
-Priority Matrix: Attached
+# Project Overview
+
+## Project Name
+
+Covid-19 Tracker
+
+## Project Description
+
+It allows a user to get latest information about Covid-19 cases in the USA,globally and information about a vaccine status 
+ 
+## API and Data Sample
+
+https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v3/covid-19/jhucsse - Worldwide, https://disease.sh/v3/covid-19/vaccine -Vaccine
+
+## Wireframes
+
+Done  
+
+#### MVP 
+
+- Let user choose the right database
+- Find and use external api to apply
+- Render data on page with all needed information
+- Allow user to choose favorites 
+
+
+#### PostMVP  
+
+- Add second API and third API on different pages 
+- Use local storage to save user favorites to track the most favorite country/state
+- Make the page user friendly with right logic and apply correct css style
+
+## Project Schedule
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Dec 18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Dec 21| Project Approval | Incomplete
+|Dec 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Dec 23| Pseudocode / actual code | Incomplete
+|Jan 4| MVP | Incomplete
+|Jan 5| Presentations | Incomplete
+
+## Priority Matrix
+
+## Timeframes
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+|Research | H | 3hrs| |  |
+|HTML | H | 3hrs| |  |
+|Css| H | 3hrs| |  |
+|JS | H | 3hrs| |  |
+|API | H | 3hrs| |  |
+|Make User Friendly | H | 3hrs| |  |
+|Additional futures | H | 3hrs| |  |
+| Total | H | | |  |
+
+## Code Snippet
+```
+## Change Log
+  
