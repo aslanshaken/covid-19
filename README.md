@@ -6,7 +6,7 @@ Covid-19 Tracker
 
 ## Project Description
 
-It allows a user to get latest information about Covid-19 cases in the USA,globally and information about a vaccine status 
+Users can get the latest information about Covid-19 confirmed cases, deaths and recovery in the US by States.
  
 ## API and Data Sample
 
@@ -18,17 +18,20 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 #### MVP 
 
-- Let user choose the right database
-- Find and use external api to apply
-- Render data on page with all needed information
-- Allow user to choose favorites 
+- Users can select any state in the US to receive information about Covid-19
+- External API will provide needed information.
+- All information will be applied to the page.
+- It allows to see them confirmed cases, confirmed deaths and recovery.
+- After each new selection, old information will be removed. 
 
 
 #### PostMVP  
 
-- Add second API and third API on different pages 
-- Use local storage to save user favorites to track the most favorite country/state
-- Make the page user friendly with right logic and apply correct css style
+- Will be added event listeners to receive correct information from API.
+- Most selectable States will be kept in local storage.
+- Will be added extra API to check Covid-19 cases in worldwide in one page.
+- Will be used animation and gifts.
+- Will be added extra space to have users feedback and suggestions. 
 
 ## Project Schedule
 
@@ -47,20 +50,17 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|API Research | H | 3hrs| |  |
-|work with html tags  | H | 3hrs| |  |
-|Check API with console log | H | 3hrs| |  
-|adjust flex to div tags in html | H | 3hrs|  | |
-|add input and button | H | 1hrs| | 
-|test first API request in html | H | 3hrs| |  
-|Work with big 0 in my coding | H | 3hrs| |
-|Check API | H | 3hrs| |  
-|add outsourse data(images,gifts  etc.) | H | 3hrs| | |
-|Make User Friendly | H | 3hrs| |  |
+|API Research | H | 7hrs| |  |
+|Work with html tags  | H | 3hrs| |  |
+|Adding and testing API functions with console logs | H | 4hrs| |  
+|Adjust flex box design to div tags in html | H | 5hrs|  | |
+|Add input and button tags, and connect them with API | H | 3hrs| | 
+|Test API request in html | H | 1hrs| |  
+|Apply correctly API's data to HTML| H | 4hrs| |
+|Apply design for small devices | H | 4hrs| |  
+|Add outsourse data(images,gifts, animations etc.) | H | 3hrs| | |
+|Apply design and make it user friendly with correct logic | H | 4hrs| |  |
 |Additional futures | H | 3hrs| |  |
-| Total | H | 31 hours| |  |
+| Total | H | 41 hours| |  |
 
 ## Code Snippet
-```
-## Change Log
-  
