@@ -14,7 +14,7 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 ## Wireframes
 
-Done  
+ Please check the link https://res.cloudinary.com/dx93cbdm4/image/upload/v1608582687/Screenshot_from_2020-12-21_11-04-09_by1n43.png 
 
 #### MVP 
 
