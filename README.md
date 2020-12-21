@@ -47,14 +47,18 @@ Done
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|Research | H | 4hrs| |  |
-|HTML | H | 5hrs| |  |
-|Css| H | 7hrs|  | |
-|JS | H | 7hrs| | |
-|API | H | 7hrs| |  |
-|Make User Friendly | H | 4hrs| |  |
+|API Research | H | 3hrs| |  |
+|work with html tags  | H | 3hrs| |  |
+|Check API with console log | H | 3hrs| |  
+|adjust flex to div tags in html | H | 3hrs|  | |
+|add input and button | H | 1hrs| | 
+|test first API request in html | H | 3hrs| |  
+|Work with big 0 in my coding | H | 3hrs| |
+|Check API | H | 3hrs| |  
+|add outsourse data(images,gifts  etc.) | H | 3hrs| | |
+|Make User Friendly | H | 3hrs| |  |
 |Additional futures | H | 3hrs| |  |
-| Total | H | | |  |
+| Total | H | 31 hours| |  |
 
 ## Code Snippet
 ```
