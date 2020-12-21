@@ -31,6 +31,7 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 - Most selectable States will be kept in local storage.
 - Will be added extra API to check Covid-19 cases in worldwide in one page.
 - Will be used animation and gifts.
+- Will have adjusted for small devices as well.
 - Will be added extra space to have users feedback and suggestions. 
 
 ## Project Schedule
