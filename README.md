@@ -47,6 +47,8 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 ## Priority Matrix
 
+Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v1608615517/Untitled_drawing_qgo1m8.jpg
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
