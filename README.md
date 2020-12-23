@@ -6,7 +6,7 @@ Covid-19 Tracker
 
 ## Project Description
 
-It allows a user to get latest information about Covid-19 cases in the USA,globally and information about a vaccine status 
+Users can get the latest information about Covid-19 confirmed cases, deaths and recovery in the US by States.
  
 ## API and Data Sample
 
@@ -14,21 +14,25 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 
 ## Wireframes
 
-Done  
+ Please check the link https://res.cloudinary.com/dx93cbdm4/image/upload/v1608582687/Screenshot_from_2020-12-21_11-04-09_by1n43.png 
 
 #### MVP 
 
-- Let user choose the right database
-- Find and use external api to apply
-- Render data on page with all needed information
-- Allow user to choose favorites 
+- Users can select any States in the US to receive information about Covid-19
+- External API will provide needed information.
+- All information will be applied to the page.
+- It allows to see them confirmed cases, confirmed deaths and recovery.
+- After each new selection, old information will be removed. 
 
 
 #### PostMVP  
 
-- Add second API and third API on different pages 
-- Use local storage to save user favorites to track the most favorite country/state
-- Make the page user friendly with right logic and apply correct css style
+- Will be added event listeners to receive correct information from API.
+- Most selectable States will be kept in local storage.
+- Will be added extra API to check Covid-19 cases in worldwide in one page.
+- Will be used animation and gifts.
+- Will have adjusted for small devices as well.
+- Will be added extra space to have users feedback and suggestions. 
 
 ## Project Schedule
 
@@ -43,20 +47,23 @@ Done
 
 ## Priority Matrix
 
+Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v1608615517/Untitled_drawing_qgo1m8.jpg
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|Research | H | 3hrs| |  |
-|HTML | H | 3hrs| |  |
-|Css| H | 3hrs| |  |
-|JS | H | 3hrs| |  |
-|API | H | 3hrs| |  |
-|Make User Friendly | H | 3hrs| |  |
+|API Research | H | 7hrs| |  |
+|Work with html tags  | H | 3hrs| |  |
+|Adding and testing API functions with console logs | H | 4hrs| |  
+|Adjust flex box design to div tags in html | H | 5hrs|  | |
+|Add input and button tags, and connect them with API | H | 3hrs| | 
+|Test API request in html | H | 1hrs| |  
+|Apply correctly API's data to HTML| H | 4hrs| |
+|Apply design for small devices | H | 4hrs| |  
+|Add outsourse data(images,gifts, animations etc.) | H | 3hrs| | |
+|Apply design and make it user friendly with correct logic | H | 4hrs| |  |
 |Additional futures | H | 3hrs| |  |
-| Total | H | | |  |
+| Total | H | 41 hours| |  |
 
 ## Code Snippet
-```
-## Change Log
-  
