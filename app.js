@@ -125,7 +125,8 @@ function removeCounty() {
 function getValueCounty(e) {
     e.preventDefault()
     const countyValue = document.querySelector('#select-county').value //- gets value of states
-    finalCounty(countyValue) //- passes the value to next step
+    const stateValue = document.querySelector('#select-states').value
+    finalCounty(countyValue,stateValue) //- passes the value to next step
 
 
 }
@@ -137,20 +138,24 @@ countyForm.addEventListener('submit', getValueCounty)
 
 
 //Request by county for output5
-async function finalCounty(nameCounty) {
+async function finalCounty(nameCounty,nameState) {
     try {
         const chosenCounty = await axios.get(urlUSA)
-        let updatedTime = [] // -???
+        let updatedTime = []
         let confirmedCases = []
         let confirmedDeaths = []
         let recovered = []
         chosenCounty.data.forEach((check) => {
             if (check.county === nameCounty) {
-                // confirmedCases.push()
-                console.log(check.county)
+                // console.log(check.province)
+                // console.log(check.county)
+                // console.log(check.updatedAt)
+                // console.log(check.stats.confirmed)
+                // console.log(check.stats.deaths)
+                // console.log(check.stats.recovered)
             }
         })
-
+        
     } catch (error) {
         console.log(error)
     }
@@ -159,3 +164,5 @@ async function finalCounty(nameCounty) {
 
 }
 
+
+//Match same county
