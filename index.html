@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script defer src="./app.js"></script>
+    <script defer src="./usa.js"></script>
+    <script defer src="./world.js"></script>
     <link rel="stylesheet" href="./style.css" type="text/css" media="screen" title="no title" charset="UTF-8">
     <title>Covid-19 Check Status</title>
 </head>
@@ -13,22 +14,59 @@
 <body>
 
     <header>
-        <div>
-            <h1 id="headH1">Covid-19</h1>
+        <div class="header-row">
+
+            <div class="covid-word">
+                <h1>Covid-19</h1>
+            </div>
+
+            <div>
+                BLBLA
+            </div>
+
+            <div>
+                BLABLA
+            </div>
+
         </div>
+
+
     </header>
+
     <!--  -->
     <main>
-        <div class="search-section">
-            <form>
-                <select  id="select-states"> </select>
-                <button type="submit">Select</button>
-            </form>
-        </div>
-        
-        <div id="search-county"></div>
+        <div class="main-row">
 
-        <div id="post-data"></div>
+            <div id="usa">
+
+                <div class="usa-total-cases">
+                    <h2 id="usa-center">USA</h2>
+                    <h3 id="total-cases">Total cases:</h3>
+                    <h3 id="total deaths">Total deaths:</h3>
+                </div>
+
+                <form>
+                    <select id="select-states">
+                        <option value="selectS" selected disabled>Select State</option>
+                    </select>
+                    <button id="state-button" type="submit">Select</button>
+                </form>
+
+                <div id="search-county"></div>
+                <div id="post-data">Center</div>
+            </div>
+
+            <div id="worldwide">
+
+                <div class="world-total-cases">
+                    <h3> Worldwide Total cases:</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+
 
     </main>
     <!--  -->
