@@ -1,18 +1,28 @@
 const urlUSA = 'https://disease.sh/v3/covid-19/jhucsse/counties'
 
 
-//from URL (states) to drop down 
+// Main ASYNC
 async function getOptions(choosenState, choosenCounty) {
     try {
         const response = await axios.get(urlUSA)
-         
-        const totalCases = []
+
+        // TOTAL CASES
+        let totalCases = 0
         response.data.forEach((check) => {
-         totalCases.push(check.stats.confirmed)
+            totalCases += parseInt(check.stats.confirmed)
         })
-        console.log(totalCases)
+
+        // TOTAL DEATHS
+        let totalDeaths = 0
+        response.data.forEach((check) => {
+            totalDeaths += parseInt(check.stats.deaths)
+        })
+        removeTotalAgain()
+        totalCasesDeaths(totalCases, totalDeaths)
+        
 
 
+        // LIST STATES
         const states = [] // holds all states 
         response.data.forEach((check) => {
             if (!states.includes(check.province)) {
@@ -21,6 +31,7 @@ async function getOptions(choosenState, choosenCounty) {
         })
         listStates(states)
 
+        // LIST COUNTIES
         const allCounty = [] // holds all county after choosing state
         response.data.forEach((check) => {
             if (check.province === choosenState) {
@@ -30,9 +41,9 @@ async function getOptions(choosenState, choosenCounty) {
         })
         listCounty(allCounty)
 
+        // PUTS CHOOSEN COUNTY INFO IN PAGE
         let province = []
         let county = []
-        let updatedTime = []
         let confirmedCases = []
         let confirmedDeaths = []
         let recovered = []
@@ -41,7 +52,6 @@ async function getOptions(choosenState, choosenCounty) {
                 if (check.county === choosenCounty) {
                     province.push(check.province)
                     county.push(check.county)
-                    updatedTime.push(check.updatedAt)
                     confirmedCases.push(check.stats.confirmed)
                     confirmedDeaths.push(check.stats.deaths)
                     recovered.push(check.stats.recovered)
@@ -50,7 +60,7 @@ async function getOptions(choosenState, choosenCounty) {
 
         })
         removePostData()
-        showStateCounty(province, county, updatedTime, confirmedDeaths, confirmedCases, recovered)
+        showStateCounty(province, county, confirmedDeaths, confirmedCases, recovered)
 
 
     } catch (error) {
@@ -119,7 +129,7 @@ function newCountySection() {
     newform.append(button)
     button.id = 'county-button'
     button.type = 'submit'
-    button.textContent = 'submit'
+    button.textContent = 'Submit'
     // newSelectionCounty.nameState = "County" -?????
 }
 
@@ -147,15 +157,14 @@ function removeCounty() {
 
 
 //shows info on the page. 
-function showStateCounty(province, county, updatedTime, confirmedDeaths, confirmedCases, recovered) {
+function showStateCounty(province, county, confirmedDeaths, confirmedCases, recovered) {
     const showCountyInfo = `
-<h3>Last Updated Time: <strong> ${updatedTime}</strong></h3>
 <h3>State:<strong> ${province}</strong></h3>
 <h3>County:<strong> ${county}</strong></h3>
-<h3>Confirmed Cases:<strong> ${confirmedCases}</strong></h3>
-<h3>Confirmed Deaths:<strong>${confirmedDeaths}</strong></h3>
-<h3>Recovered:<strong>${recovered}</strong> </h3>
+<h3>Confirmed Cases:<strong> ${confirmedCases.toLocaleString('en', {useGrouping:true})}</strong></h3>
+<h3>Confirmed Deaths:<strong> ${confirmedDeaths.toLocaleString('en', {useGrouping:true})}</strong></h3>
 `
+{/* <h3>Recovered:<strong> ${recovered.toLocaleString('en', {useGrouping:true})}</strong> </h3> */}
     document.querySelector('#post-data').insertAdjacentHTML('beforeend', showCountyInfo)
 
 }
@@ -167,4 +176,26 @@ function removePostData() {
     while (postData.firstChild) {
         postData.removeChild(postData.firstChild)
     }
+}
+
+
+// Total cases and deaths on page
+function totalCasesDeaths(cases, deaths) {
+    let tCases = document.querySelector('#totalU-cases')
+    let tDeaths = document.querySelector('#totalU-deaths')
+    let p1 = document.createElement('p').innerHTML = `Total Cases: ${cases.toLocaleString('en', {useGrouping:true})}`
+    let p2 = document.createElement('p').innerHTML = `Total Deaths: ${deaths.toLocaleString('en', {useGrouping:true})}`
+    tCases.append(p1)
+    tDeaths.append(p2)
+}
+
+function removeTotalAgain() {
+let tCases = document.querySelector('#totalU-cases')
+let tDeaths = document.querySelector('#totalU-deaths')
+while (tDeaths.lastChild) {
+    tDeaths.removeChild(tDeaths.lastChild)
+}
+while (tCases.firstChild) {
+    tCases.removeChild(tCases.lastChild)
+}
 }

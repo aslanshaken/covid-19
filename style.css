@@ -24,9 +24,7 @@ justify-content: space-around;
 
 /* USA */
 .usa-total-cases{
-    border: 1px solid rgba(248, 113, 16, 0.986);
-    }
-#usa-center{
+border: 1px solid rgba(248, 113, 16, 0.986);
 text-align: center;
 }
 
@@ -34,33 +32,43 @@ text-align: center;
 border: 1px solid rgba(248, 113, 16, 0.986);
 }
     
-    
 #post-data strong{
-color: tomato;
-}
-    
-.search-section{
-    padding: 50px;
+
 }
 
-#search-county{
-padding: 10px;
+#select-states, #select-county{
+min-width: 300px;    
 }
 
 #select-states, #select-county,#state-button,#county-button{
 font-size: 20px;
+}
+
+#state-button,#county-button{
 
 }
+
+#search-county form {
+display: inline;
+}
+
 
 
 
 
 /* WORLDWIDE */
 
-#worldwide{
-    border: 1px solid rgba(248, 113, 16, 0.986);
+.world-total-cases{
+border: 1px solid rgba(248, 113, 16, 0.986);
+text-align: center;
 }
 
-.world-total-cases{
-    border: 1px solid rgba(248, 113, 16, 0.986);
-    }
+#select-country,#country-button{
+font-size: 20px;
+}    
+
+#postW-data{
+border: 1px solid rgba(248, 113, 16, 0.986);
+}
+
+        
