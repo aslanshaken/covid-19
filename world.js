@@ -51,8 +51,9 @@ async function getInputs(choosenCountry) {
         })
         removePostWData()
         showCountry(countryName, confirmedCountryCase, confirmedCountryDeaths, recoveredCountry)
-
-
+        
+        
+        
     } catch (error) {
         console.log(error)
     }
@@ -67,9 +68,17 @@ function totalWCasesDeathsRecovered(cases, deaths, recovered) {
     let tWCases = document.querySelector('#totalW-cases')
     let tWDeaths = document.querySelector('#totalW-deaths')
     let tWRecovered = document.querySelector('#totalW-recovered')
-    let p1 = document.createElement('p').innerHTML = `Total Cases: ${cases.toLocaleString('en', {useGrouping:true})}`
-    let p2 = document.createElement('p').innerHTML = `Total Deaths: ${deaths.toLocaleString('en', {useGrouping:true})}`
-    let p3 = document.createElement('p').innerHTML = `Total Recovered: ${recovered.toLocaleString('en', {useGrouping:true})}`
+    let p1 = document.createElement('p')
+    let p2 = document.createElement('p')
+    let p3 = document.createElement('p')
+    
+    tWCases.innerHTML = 'Total Cases:'
+    tWDeaths.innerHTML = 'Total Deaths: '
+    tWRecovered.innerHTML = 'Total Recovered: '
+    p1.innerHTML = `${cases.toLocaleString('en', {useGrouping:true})}`
+    p2.innerHTML = `${deaths.toLocaleString('en', {useGrouping:true})}`
+    p3.innerHTML = `${recovered.toLocaleString('en', {useGrouping:true})}`
+
     tWCases.append(p1)
     tWDeaths.append(p2)
     tWRecovered.append(p3)

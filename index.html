@@ -8,7 +8,11 @@
     <script defer src="./usa.js"></script>
     <script defer src="./world.js"></script>
     <script defer src="./chill.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css" type="text/css" media="screen" title="no title" charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <title>Covid-19 Check Status</title>
 </head>
 
@@ -18,15 +22,15 @@
         <div class="header-row">
 
             <div class="covid-word">
-                <h1>Covid-19</h1>
+                Covid-19
+            </div>
+
+            <div id="time">
+                <p>Last updated: <strong id="date"></strong> </p>
             </div>
 
             <div>
-                <p id="date"></p>
-            </div>
-
-            <div>
-                BLABLA
+                
             </div>
 
         </div>
@@ -42,9 +46,9 @@
             <div id="usa">
 
                 <div class="usa-total-cases">
-                    <h2 id="usa-center">USA</h2>
-                    <h3 id="totalU-cases"></h3>
-                    <h3 id="totalU-deaths"></h3>
+                    <strong id="usa-center">USA</strong>
+                    <h2 id="totalU-cases"></h2>
+                    <h2 id="totalU-deaths"></h2>
                 </div>
                 
                 <div id="states" >
@@ -59,14 +63,15 @@
                 <div id="search-county"></div>
                 <div id="post-data"></div>
             </div>
+
             <!-- WORLDWIDE -->
             <div id="worldwide">
 
                 <div class="world-total-cases">
-                <h3 id="worldwide-center"> Worldwide </h3>
-                <h3 id="totalW-cases"></h3>
-                <h3 id="totalW-deaths"></h3>
-                <h3 id="totalW-recovered"></h3>
+                <strong id="worldwide-center"> Worldwide </strong>
+                <h2 id="totalW-cases"></h2>
+                <h2 id="totalW-deaths"></h2>
+                <h2 id="totalW-recovered"></h2>
                 </div>
                 
                 <div id="country">

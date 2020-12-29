@@ -183,10 +183,18 @@ function removePostData() {
 function totalCasesDeaths(cases, deaths) {
     let tCases = document.querySelector('#totalU-cases')
     let tDeaths = document.querySelector('#totalU-deaths')
-    let p1 = document.createElement('p').innerHTML = `Total Cases: ${cases.toLocaleString('en', {useGrouping:true})}`
-    let p2 = document.createElement('p').innerHTML = `Total Deaths: ${deaths.toLocaleString('en', {useGrouping:true})}`
+    let p1 = document.createElement('p')
+    let p2 = document.createElement('p')
+
+    tCases.innerHTML = 'Total Cases:'
+    tDeaths.innerHTML = 'Total Deaths:'
+    p1.innerHTML = `${cases.toLocaleString('en', {useGrouping:true})}`
+    p2.innerHTML = `${deaths.toLocaleString('en', {useGrouping:true})}`
+    
     tCases.append(p1)
     tDeaths.append(p2)
+
+    
 }
 
 function removeTotalAgain() {

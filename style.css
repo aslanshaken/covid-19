@@ -1,14 +1,26 @@
+body{
+    font-family:'Nunito', sans-serif;
+}
 
 /* Header */
 .header-row{
 display: flex;
 flex-direction: column;
 align-items: center;
+padding: 60px;
 }
 
 .covid-word{
-border: 1px solid rgba(248, 113, 16, 0.986);
+font-size: 55px;
+font-family:'Jacques Francois Shadow', cursive; 
+color: rgb(35, 69, 109);
 }
+
+#time{
+font-size: 25px;
+}
+
+
 
 
 
@@ -19,48 +31,84 @@ border: 1px solid rgba(248, 113, 16, 0.986);
 .main-row{
 display: flex;
 justify-content: space-around;
+background-image: url(./images/1.jpg) ;
+background-size: contain;                      
+background-repeat:   no-repeat;
+background-position: center top;
 }
 
 
 /* USA */
+#usa-center{
+    font-family:'Nunito', sans-serif;   
+    color: rgb(35, 69, 109);
+    font-size: 35px;    
+}
+
+#totalU-cases p{
+color: rgb(201, 86, 9);    
+}
+
+#totalU-deaths p {
+    color: rgb(119, 4, 4);    
+}
+
 .usa-total-cases{
-border: 1px solid rgba(248, 113, 16, 0.986);
+/* border: 1px solid rgba(248, 113, 16, 0.986); */
 text-align: center;
 }
 
 #post-data{
-border: 1px solid rgba(248, 113, 16, 0.986);
+/* border: 1px solid rgba(248, 113, 16, 0.986); */
+color: gray ;
 }
     
 #post-data strong{
-
-}
-
-#select-states, #select-county{
-min-width: 300px;    
+color: maroon;
 }
 
 #select-states, #select-county,#state-button,#county-button{
 font-size: 20px;
 }
 
-#state-button,#county-button{
-
+#select-states, #select-county{
+width: 160px;
 }
 
-#search-county form {
-display: inline;
-}
+
+
+
 
 
 
 
 
 /* WORLDWIDE */
+#worldwide-center{
+    font-family:'Nunito', sans-serif;   
+    color: rgb(35, 69, 109);
+    font-size: 35px;
+}
 
 .world-total-cases{
-border: 1px solid rgba(248, 113, 16, 0.986);
+/* border: 1px solid rgba(248, 113, 16, 0.986); */
 text-align: center;
+}
+
+#totalW-cases p {
+color: rgb(201, 86, 9); 
+}
+
+#totalW-recovered p {
+color: #8ACA2B;   
+}
+
+#totalW-deaths p {
+color: rgb(119, 4, 4);
+}
+
+#select-country{
+ max-width: 160px;   
 }
 
 #select-country,#country-button{
@@ -68,7 +116,11 @@ font-size: 20px;
 }    
 
 #postW-data{
-border: 1px solid rgba(248, 113, 16, 0.986);
+/* border: 1px solid rgba(248, 113, 16, 0.986); */
+color: gray ;
 }
 
+#postW-data strong{
+    color: maroon;
+}
         
