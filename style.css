@@ -72,7 +72,7 @@ font-size: 20px;
 }
 
 #select-states, #select-county{
-width: 160px;
+width: 200px;
 }
 
 
@@ -108,7 +108,7 @@ color: rgb(119, 4, 4);
 }
 
 #select-country{
- max-width: 160px;   
+ max-width: 200px;   
 }
 
 #select-country,#country-button{
@@ -123,4 +123,80 @@ color: gray ;
 #postW-data strong{
     color: maroon;
 }
-        
+
+
+
+/* 1700 and less */
+@media (max-width: 1700px) { 
+
+    /* .covid-word{
+     font-size: 40px;
+     } */
+ 
+     /* #time{
+     font-size: 20px;
+     } */
+     
+    img{
+        max-width: 10px;
+        max-height: 10px;
+    }
+
+     #usa{
+      padding: 1100px;   
+     }
+     
+     #worldwide{
+      margin-top: -900px;  
+     }
+ 
+ 
+     .main-row{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         background-size: contain;                     
+         background-repeat:   no-repeat;
+         background-position: top;
+     }
+ 
+ 
+ }
+
+
+/* IPHONE X */
+@media (max-width: 376px) { 
+
+   .covid-word{
+    font-size: 40px;
+    }
+
+    #time{
+    font-size: 20px;
+    }
+
+    #usa{
+     padding: 300px;   
+    }
+    
+    #worldwide{
+     margin-top: -200px;  
+    }
+
+
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-size: contain;                     
+        background-repeat:   no-repeat;
+        background-position: top;
+    }
+
+
+}
+
+
+    

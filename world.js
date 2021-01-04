@@ -58,9 +58,10 @@ async function getInputs(choosenCountry) {
         console.log(error)
     }
 
-
 }
+
 getInputs()
+
 
 
 // Total cases and deaths on page
