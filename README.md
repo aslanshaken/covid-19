@@ -55,14 +55,14 @@ Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v160861
 |API Research | H | 7hrs|8hrs |8hrs  |
 |Work with html tags  | H | 3hrs|2hrs |2hrs  |
 |Adding and testing API functions with console logs | H | 4hrs|2hrs |2hrs  
-|Adjust flex box design to div tags in html | H | 5hrs|  | |
-|Add input and button tags, and connect them with API | H | 3hrs| | 
-|Test API request in html | H | 1hrs| |  
-|Apply correctly API's data to HTML| H | 4hrs| |
-|Apply design for small devices | H | 4hrs| |  
-|Add outsourse data(images,gifts, animations etc.) | H | 3hrs| | |
-|Apply design and make it user friendly with correct logic | H | 4hrs| |  |
-|Additional futures | H | 3hrs| |  |
+|Adjust flex box design to div tags in html | H | 5hrs|4hrs |4hrs |
+|Add input and button tags, and connect them with API | H | 3hrs|2hrs |2hrs 
+|Test API request in html | H | 1hrs|1hrs |1hrs  
+|Apply correctly API's data to HTML| H | 4hrs|5hrs|5hrs
+|Apply design for small devices | H | 4hrs|5hrs |5hrs  
+|Add outsourse data(images,gifts, animations etc.) | H | 3hrs|3hrs |3hrs |
+|Apply design and make it user friendly with correct logic | H | 4hrs|4hrs |4hrs  |
+|Additional futures | H | 3hrs|2hrs |2hrs  |
 | Total | H | 41 hours| |  |
 
 ## Code Snippet
