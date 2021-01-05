@@ -63,6 +63,6 @@ Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v160861
 |Add outsourse data(images,gifts, animations etc.) | H | 3hrs|3hrs |3hrs |
 |Apply design and make it user friendly with correct logic | H | 4hrs|4hrs |4hrs  |
 |Additional futures | H | 3hrs|2hrs |2hrs  |
-| Total | H | 41 hours| |  |
+| Total | H | 41 hours|45hrs |45hrs  |
 
 ## Code Snippet
