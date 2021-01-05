@@ -52,9 +52,9 @@ Please check the link -https://res.cloudinary.com/dx93cbdm4/image/upload/v160861
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|API Research | H | 7hrs| |  |
-|Work with html tags  | H | 3hrs| |  |
-|Adding and testing API functions with console logs | H | 4hrs| |  
+|API Research | H | 7hrs|8hrs |8hrs  |
+|Work with html tags  | H | 3hrs|2hrs |2hrs  |
+|Adding and testing API functions with console logs | H | 4hrs|2hrs |2hrs  
 |Adjust flex box design to div tags in html | H | 5hrs|  | |
 |Add input and button tags, and connect them with API | H | 3hrs| | 
 |Test API request in html | H | 1hrs| |  
