@@ -10,8 +10,7 @@ Users can get the latest information about Covid-19 confirmed cases, deaths and 
  
 ## API and Data Sample
 
-https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v3/covid-19/jhucsse - Worldwide, https://disease.sh/v3/covid-19/vaccine -Vaccine
-
+https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v3/covid-19/jhucsse - Worldwide
 ## Wireframes
 
  Please check the link https://res.cloudinary.com/dx93cbdm4/image/upload/v1608582687/Screenshot_from_2020-12-21_11-04-09_by1n43.png 
