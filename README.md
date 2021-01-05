@@ -38,7 +38,7 @@ https://disease.sh/v3/covid-19/jhucsse/counties - USA only, https://disease.sh/v
 |  Day | Deliverable | Status
 |---|---| ---|
 |Dec 18| Prompt / Wireframes / Priority Matrix / Timeframes | completed
-|Dec 21| Project Approval | Incompleted
+|Dec 21| Project Approval | completed
 |Dec 22| Core Application Structure (HTML, CSS, etc.) | completed
 |Dec 23| Pseudocode / actual code | completed
 |Jan 4| MVP | completed
