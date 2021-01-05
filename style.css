@@ -7,7 +7,7 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 60px;
+margin-bottom: 60px;
 }
 
 .covid-word{
@@ -39,6 +39,11 @@ background-position: center top;
 
 
 /* USA */
+ 
+#usa{
+ margin-left:-60px;   
+}
+
 #usa-center{
     font-family:'Nunito', sans-serif;   
     color: rgb(35, 69, 109);
@@ -75,7 +80,9 @@ font-size: 20px;
 width: 200px;
 }
 
-
+#post-data:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
+}
 
 
 
@@ -84,6 +91,11 @@ width: 200px;
 
 
 /* WORLDWIDE */
+
+#worldwide{
+    margin-right:-60px;   
+   }
+   
 #worldwide-center{
     font-family:'Nunito', sans-serif;   
     color: rgb(35, 69, 109);
@@ -124,30 +136,31 @@ color: gray ;
     color: maroon;
 }
 
+#postW-data:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5)
+}
 
 
-/* 1700 and less */
-@media (max-width: 1700px) { 
 
-    /* .covid-word{
+/* MEDIA */
+
+/* IPHONE X */
+@media (max-width: 376px) { 
+
+    .covid-word{
      font-size: 40px;
-     } */
+     }
  
-     /* #time{
+     #time{
      font-size: 20px;
-     } */
-     
-    img{
-        max-width: 10px;
-        max-height: 10px;
-    }
-
+     }
+ 
      #usa{
-      padding: 1100px;   
+      padding: 300px;   
      }
      
      #worldwide{
-      margin-top: -900px;  
+      margin-top: -200px;  
      }
  
  
@@ -163,40 +176,4 @@ color: gray ;
  
  
  }
-
-
-/* IPHONE X */
-@media (max-width: 376px) { 
-
-   .covid-word{
-    font-size: 40px;
-    }
-
-    #time{
-    font-size: 20px;
-    }
-
-    #usa{
-     padding: 300px;   
-    }
-    
-    #worldwide{
-     margin-top: -200px;  
-    }
-
-
-    .main-row{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-size: contain;                     
-        background-repeat:   no-repeat;
-        background-position: top;
-    }
-
-
-}
-
-
-    
+ 

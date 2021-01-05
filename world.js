@@ -1,5 +1,11 @@
 const urlWorldwide = 'https://disease.sh/v3/covid-19/jhucsse'
 
+// let countryName = []
+//         countryName.push(choosenCountry) // After each loop it should add new string except returning empty
+//         let confirmedCountryCase = 0
+//         let confirmedCountryDeaths = 0
+//         let recoveredCountry = 0
+        
 async function getInputs(choosenCountry) {
     try {
         const responseWorld = await axios.get(urlWorldwide)
@@ -121,6 +127,7 @@ function getCountryName(e) {
         return false
     } else {
         getInputs(countryValue) //- passes the value to next step
+        // showCountry(countryName, confirmedCountryCase, confirmedCountryDeaths, recoveredCountry)
     }
 
 }
