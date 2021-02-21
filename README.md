@@ -4,6 +4,9 @@
 
 Covid-19 Tracker
 
+## Website view
+Link: https://leeuwork.github.io/covid-19/
+
 ## Project Description
 
 Users can get the latest information about Covid-19 confirmed cases, deaths and recovery in the US by States.
