@@ -4,6 +4,7 @@
 
 Covid-19 Tracker
 
+## View - https://aslanshaken.github.io/covid-19/
 
 ## Project Description
 
