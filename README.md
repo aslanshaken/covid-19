@@ -4,8 +4,7 @@
 
 Covid-19 Tracker
 
-## Website view
-Link: https://leeuwork.github.io/covid-19/
+## View - https://aslanshaken.github.io/covid-19/
 
 ## Project Description
 
